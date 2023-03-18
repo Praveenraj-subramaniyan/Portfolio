@@ -13,6 +13,7 @@ function App() {
       <a href="#contact">Contact</a>
       </div>
      </div>
+     <div className='content'>
     <div className='home' id='home'>
        <p>----------home</p>
     </div>
@@ -25,6 +26,7 @@ function App() {
     <div className='contact' id='contact'>
     <p>----------contact</p>
     </div>
+  </div>
   </div>
   );
 }

@@ -57,23 +57,22 @@ body {
 .home{
   height: 200px;
   background-color: white;
-  position: relative;
 }
 .experience{
   height: 200px;
   background-color: white;
-  position: relative;
 }
 .education{
   height: 200px;
   background-color: white;
-  position: relative;
 }
 .contact{
   height: 200px;
   background-color: white;
-  position: relative;
 }
 .body p{
   margin: 0px;
+}
+.content{
+  position: relative;
 }
