@@ -6,7 +6,7 @@ function App() {
     <div class="body">
      <div class="header">
       <div class="header-right">
-      {/* <img  src="../public/favicon.ico" alt='Home'/> */}
+      <img  src="" alt='Home'/>
       <a href="#home">Home</a>
       <a href="#experience">Experience</a>
       <a href="#education">Education</a>
