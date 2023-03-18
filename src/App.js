@@ -13,17 +13,17 @@ function App() {
       <a href="#contact">Contact</a>
       </div>
      </div>
-    <div className='home' id='contachomet'>
-       <p>----------</p>
+    <div className='home' id='home'>
+       <p>----------home</p>
     </div>
     <div className='experience' id='experience'>
-    <p>----------</p>
+    <p>----------experience</p>
     </div>
     <div className='education' id='education'>
-    <p>----------</p>
+    <p>----------education</p>
     </div>
     <div className='contact' id='contact'>
-    <p>----------</p>
+    <p>----------contact</p>
     </div>
   </div>
   );
