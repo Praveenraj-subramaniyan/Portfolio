@@ -4,11 +4,14 @@ import './App.css';
 function App() {
   return (
     <div class="header">
-    <a href="#default" class="logo">CompanyLogo</a>
     <div class="header-right">
-      <a class="active" href="#home">Home</a>
+      <a href="#home">Home</a>
+      <a href="#about">Experience</a>
+      <a href="#about">Education</a>
       <a href="#contact">Contact</a>
-      <a href="#about">About</a>
+    </div>
+    <div className='home'>
+
     </div>
   </div>
   );
