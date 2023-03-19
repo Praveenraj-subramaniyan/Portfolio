@@ -5,7 +5,7 @@ import './App.css';
 
 function App() {
   return (
-    <div >
+    <div>
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -40,8 +40,10 @@ function App() {
           </div>
           <div class="row icondiv">
             <div class="col-sm-4">
-            <button class="btn btn-dark">Github</button>
-              <button class="btn btn-primary">LinkedIn</button>
+              <a href='https://github.com/orgs/Praveenraj-subramaniyan/repositories'>
+                <button class="btn btn-dark buttommargin">Github</button>
+                </a>
+                <button class="btn btn-primary buttommargin">LinkedIn</button>
             </div>
           </div>
         </div>

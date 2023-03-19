@@ -3,7 +3,7 @@
 
 }
 .icondiv{
-  margin-left: 350px;
+  margin-left: 32%;
   position: relative;
 }
 .experience{
@@ -29,4 +29,7 @@ h6{
 }
 h4{
   font-weight: bold;
+}
+.buttommargin{
+  margin-right: 20px;
 }
