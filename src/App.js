@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <div >
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark bar123">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
             <span class="navbar-toggler-icon"></span>
