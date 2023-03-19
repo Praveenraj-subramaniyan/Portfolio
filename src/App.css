@@ -7,7 +7,7 @@
  .education{
   width: 80%;
  }
- .contact{
+ .skills{
   width: 80%;
  }
 img{
@@ -15,5 +15,16 @@ img{
 }
 .content{
   margin-top: 30px;
-
+}
+.Sideheading{
+  font-weight: bold;
+}
+h6{
+  font-weight: bold;
+}
+h4{
+  font-weight: bold;
+}
+.bar123{
+  position: sticky;
 }
