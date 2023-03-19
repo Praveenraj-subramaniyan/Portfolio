@@ -13,7 +13,7 @@ function App() {
       <a href="#contact">Contact</a>
       </div>
      </div>
-     <div className='content'>
+    <div className='content'>
     <div className='home' id='home'>
        <p>----------home</p>
     </div>

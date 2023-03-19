@@ -11,6 +11,9 @@ body {
   background-color: rgba(255, 0, 0, 0.61);
   padding: 20px 10px;
   height: 30px;
+  position: fixed;
+  width: 86.7%;
+
 }
 .header img{
   float: left;
@@ -37,6 +40,7 @@ body {
   background-color:rgba(255, 0, 0, 0.863);
   color: white;
 }
+
 
 .header-right {
   float: right ;
@@ -72,4 +76,7 @@ body {
 }
 .body p{
   margin: 0px;
+}
+.content{
+  
 }
