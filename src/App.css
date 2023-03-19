@@ -1,3 +1,19 @@
 .home{
  width: 80%;
 }
+.experience{
+  width: 80%;
+ }
+ .education{
+  width: 80%;
+ }
+ .contact{
+  width: 80%;
+ }
+img{
+  width: 200px;
+}
+.content{
+  margin-top: 30px;
+
+}
