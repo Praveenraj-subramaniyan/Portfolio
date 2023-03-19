@@ -35,8 +35,10 @@ function App() {
             <img class="rounded-circle" src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/havjfrq3liewx4q6eitx' alt='Profile' />
           </div>
           <div class="col-sm-8">
-            <h4>Praveenraj Subramaniyan | Certified full stack developer</h4>
+            <h4>Praveenraj Subramaniyan | Certified Full Stack Developer</h4>
             <p>To start in making a professional full stack developer resume,let's clarify the distinction between a CV and a resume. Although it may sound tricky, there are actually evident features that enable us to differentiate. The features are namely its Content, Objective, and Length.</p>
+            <p>spr887011@gmail.com</p>
+            <p>+91 8870118193</p>
           </div>
           <div class="row icondiv">
             <div class="col-sm-4">
