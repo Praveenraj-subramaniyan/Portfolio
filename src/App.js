@@ -20,7 +20,7 @@ function App() {
                 <a class="nav-link" href="#experience">Experience</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#educaeducationtion">Education</a>
+                <a class="nav-link" href="#education">Education</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#skills">Skills</a>
@@ -42,8 +42,10 @@ function App() {
             <div class="col-sm-4">
               <a href='https://github.com/orgs/Praveenraj-subramaniyan/repositories'>
                 <button class="btn btn-dark buttommargin">Github</button>
-                </a>
+              </a>
+              <a href='https://www.linkedin.com/in/praveen-raj-132bbb22a/'>
                 <button class="btn btn-primary buttommargin">LinkedIn</button>
+              </a>
             </div>
           </div>
         </div>
