@@ -1,21 +1,22 @@
 .home{
  width: 80%;
- margin-bottom: 20px;
+
+}
+.icondiv{
+  margin-left: 350px;
+  position: relative;
 }
 .experience{
   width: 80%;
-  margin-bottom: 20px;
  }
  .education{
   width: 80%;
-  margin-bottom: 20px;
  }
  .skills{
   width: 80%;
-  margin-bottom: 20px;
  }
 img{
-  width: 200px;
+  width: 150px;
 }
 .content{
   margin-top: 100px;
@@ -28,7 +29,4 @@ h6{
 }
 h4{
   font-weight: bold;
-}
-.bar123{
-  position: sticky;
 }
