@@ -41,10 +41,10 @@ function App() {
           <div class="row icondiv">
             <div class="col-sm-4">
               <a href='https://github.com/orgs/Praveenraj-subramaniyan/repositories'>
-                <button class="btn btn-dark buttommargin">Github</button>
+                <button class="btn btn-dark buttommargin"><i class="fa fa-github"></i>Github</button>
               </a>
               <a href='https://www.linkedin.com/in/praveen-raj-132bbb22a/'>
-                <button class="btn btn-primary buttommargin">LinkedIn</button>
+                <button class="btn btn-primary buttommargin"><i class="fa fa-linkedin"></i>LinkedIn</button>
               </a>
             </div>
           </div>
