@@ -102,6 +102,9 @@ function App() {
           </div>
         </div>
       </div>
+      <div class="chat">
+        <a><span class="bi bi-chat"></span></a>
+      </div>
     </div>
   );
 }
