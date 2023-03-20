@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import profile from './images/home.png'
 
 
 
@@ -32,7 +33,7 @@ function App() {
       <div class="home mx-auto " id='home'>
         <div class="row content">
           <div class="col-sm-4">
-            <img class="rounded-circle" src='https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/havjfrq3liewx4q6eitx' alt='Profile' />
+            <img class="rounded-circle" src={profile} alt='Profile' />
           </div>
           <div class="col-sm-8">
             <h4>Praveenraj Subramaniyan | Certified Full Stack Developer</h4>
