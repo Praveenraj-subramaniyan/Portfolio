@@ -36,7 +36,7 @@ function App() {
           </div>
           <div class="col-sm-8">
             <h4>Praveenraj Subramaniyan | Certified Full Stack Developer</h4>
-            <p>To start in making a professional full stack developer resume,let's clarify the distinction between a CV and a resume. Although it may sound tricky, there are actually evident features that enable us to differentiate. The features are namely its Content, Objective, and Length.</p>
+            <p>Junior software developer with over 1+ year of experience in windows and web application development. Proficient in ASP.NET Core with experience in SQL and database migration. Skilled in creating new tools for updating values in a database from GitHub API and triggering Azure pipeline in C# using API. Familiar with Azure DevOps and AWS Cloud.</p>
             <p><i class="fa fa-envelope" aria-hidden="true"></i>spr887011@gmail.com</p>
             <p><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91 8870118193</p>
           </div>
@@ -59,7 +59,14 @@ function App() {
           </div>
           <div class="col-sm-8">
             <h6>Software Developer - <spam>Syncfusion Software</spam></h6>
-            <p>Nov.2021 - Mar.2023</p>
+            <p>Nov,2021 - Mar,2023</p>
+            <p>•	1+ years experience as junior software developer in syncfusion software</p>
+            <p>•	Web application development in ASP.NET Core
+            </p><p>•	 Create new tools for update value in database and Trigger Azure pipeline in C# using API
+            </p><p>•	Windows application development using Final builder, WIX, bootstrapper
+            </p><p>•	Azure DevOps – Virtual Machine , Image , Virtual Machine Scale Set, Pipeline and Azure SQL .
+            </p><p>•	Database migration, GIT, AWS Cloud.
+            </p>
           </div>
         </div>
       </div>
@@ -70,12 +77,12 @@ function App() {
           </div>
           <div class="col-sm-8">
             <h6>Bachelor Of Engineering</h6>
-            <p>Jun.2017 - Jun.2021</p>
+            <p>Jun,2017 - Jun,2021</p>
             <p><span class="Sideheading">Institute : </span>Mookabigai College Of Engineering</p>
             <p><span class="Sideheading">Branch : </span>Computer Science Engineering</p>
             <br />
             <h6>Full Stack Developer</h6>
-            <p>Mar.2023 - Inprogress</p>
+            <p>Mar,2023 - Inprogress</p>
             <p><span class="Sideheading">Institute : </span>Guvi Geeks</p>
             <p><span class="Sideheading">Course : </span>MERN Stack</p>
           </div>
@@ -87,8 +94,11 @@ function App() {
             <h4>Skills</h4>
           </div>
           <div class="col-sm-8">
-            <h6>Software Developer - <spam>Syncfusion Software</spam></h6>
-            <p>Nov.2021 - Mar.2023</p>
+            <h6>Language Known</h6>
+            <p>C#, JavaScript, ReactJS, Java, Python</p>
+            <br />
+            <h6>Database</h6>
+            <p>SQL, MongoDB</p>
           </div>
         </div>
       </div>
