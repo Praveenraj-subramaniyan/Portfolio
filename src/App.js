@@ -37,8 +37,8 @@ function App() {
           <div class="col-sm-8">
             <h4>Praveenraj Subramaniyan | Certified Full Stack Developer</h4>
             <p>To start in making a professional full stack developer resume,let's clarify the distinction between a CV and a resume. Although it may sound tricky, there are actually evident features that enable us to differentiate. The features are namely its Content, Objective, and Length.</p>
-            <p>spr887011@gmail.com</p>
-            <p>+91 8870118193</p>
+            <p><i class="fa fa-envelope" aria-hidden="true"></i>spr887011@gmail.com</p>
+            <p><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91 8870118193</p>
           </div>
           <div class="row icondiv">
             <div class="col-sm-4">
