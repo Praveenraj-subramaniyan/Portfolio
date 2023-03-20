@@ -14,7 +14,7 @@ function App() {
           <div class="collapse navbar-collapse" id="mynavbar">
             <ul class="navbar-nav me-auto">
               <li class="nav-item">
-                <a class="nav-link" href="#home">Home</a>
+                <a class="nav-link" href="#home"><i class="fa fa-home " aria-hidden="true"></i>Home</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#experience">Experience</a>
