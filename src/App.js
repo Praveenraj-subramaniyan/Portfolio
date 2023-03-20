@@ -40,7 +40,7 @@ function App() {
             <p><i class="fa fa-envelope" aria-hidden="true"></i>spr887011@gmail.com</p>
             <p><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91 8870118193</p>
           </div>
-          <div class="row icondiv">
+          <div class="row icondiv mx-auto">
             <div class="col-sm-4">
               <a href='https://github.com/orgs/Praveenraj-subramaniyan/repositories'>
                 <button class="btn btn-dark buttommargin"><i class="fa fa-github"></i>Github</button>
