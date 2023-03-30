@@ -101,11 +101,23 @@ function App() {
             <h6>Database</h6>
             <p>SQL, MongoDB</p>
           </div>
+
+        </div>
+        <div class="chatdiv">
+          <i class="fa fa-commenting fa-5x chat" aria-hidden="true"></i>
+          <div class="chatbox img-thumbnail">
+            <form>
+              <label class="chatboxinput"></label>
+              <input class="chatboxinput" placeholder='Name*' required /><br />
+              <input class="chatboxinput" type={'email'} placeholder='Email*' required /><br />
+              <input class="chatboxinput"  placeholder='Mobile' required /><br />
+              <textarea class="chatboxinput" placeholder='Message*' required />
+              <button class="btn btn-dark buttommargin sendbtn">Send</button>
+            </form>
+          </div>
         </div>
       </div>
-      <div class="chat">
-        <a><span class="bi bi-chat"></span></a>
-      </div>
+
     </div>
   );
 }
