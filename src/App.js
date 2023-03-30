@@ -6,7 +6,7 @@ import profile from './images/profile.jpg'
 
 function App() {
   return (
-    <div>
+    <div class="mainDiv">
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
         <div class="container-fluid">
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
@@ -101,23 +101,23 @@ function App() {
             <h6>Database</h6>
             <p>SQL, MongoDB</p>
           </div>
-
         </div>
         <div class="chatdiv">
-          <i class="fa fa-commenting fa-5x chat" aria-hidden="true"></i>
-          <div class="chatbox img-thumbnail">
-            <form>
+          <div>
+            <i class="fa fa-commenting fa-5x chat position:absolute;bottom:5px;right:5px;margin:0;padding:5px 3px" aria-hidden="true"></i>
+          </div>
+          <div class="chatbox img-thumbnail ">
+            <form class="">
               <label class="chatboxinput"></label>
               <input class="chatboxinput" placeholder='Name*' required /><br />
               <input class="chatboxinput" type={'email'} placeholder='Email*' required /><br />
-              <input class="chatboxinput"  placeholder='Mobile' required /><br />
-              <textarea class="chatboxinput" placeholder='Message*' required />
+              <input class="chatboxinput" placeholder='Mobile' /><br />
+              <textarea class="chatboxinput" cols="23" rows="3" s placeholder='Message*' required />
               <button class="btn btn-dark buttommargin sendbtn">Send</button>
             </form>
           </div>
         </div>
       </div>
-
     </div>
   );
 }

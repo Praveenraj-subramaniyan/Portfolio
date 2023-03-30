@@ -39,17 +39,12 @@ i{
 }
 .chat{
   margin-bottom: 20px;
-  float: right;
-  visibility: hidden;
 }
 .chatdiv{
- 
+  float: right;
 }
 .chatbox{
-  margin-bottom: 20px;
-  float: right;
   background-color: black;
-  width: 20%;
 }
 .chatboxinput{
   margin: 10px;
@@ -58,4 +53,7 @@ i{
   background-color: black;
   margin-left: 40px;
  margin-bottom: 5px;
+}
+.mainDiv{
+ margin: 100px;
 }
