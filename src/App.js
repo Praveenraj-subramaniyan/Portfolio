@@ -1,8 +1,23 @@
 import logo from "./logo.svg";
 import "./App.css";
 import profile from "./images/profile.jpg";
+import React, { useState } from "react";
 
 function App() {
+  const [isVisible, setIsVisible] = useState({
+    ischatbox: "visually-hidden",
+  });
+  function visibilityTrue() {
+    setIsVisible({
+      ischatbox: "visually-true",
+    });
+  }
+  function visibilityHidden() {
+    setIsVisible({
+      ischatbox: "visually-hidden",
+    });
+  }
+  
   return (
     <div class="mainDiv">
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
@@ -161,11 +176,16 @@ function App() {
         </div>
         <div class="chatdiv">
           <div class="chaticon">
-            <i class="fa fa-commenting fa-5x chat " aria-hidden="true"></i>
+            <button className="chatButton" onClick={visibilityTrue}>
+              <i class="fa fa-commenting fa-5x chat " aria-hidden="true"></i>
+            </button>
           </div>
-          <div class="container mt-3 chatbox">
-            <form action="">
-            <div class="mb-3 mt-3">
+          <div className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}>
+            <form action="" >
+              <div class="mb-3 mt-3">
+                <button class="btn btn-dark closeButton" onClick={visibilityHidden}>X</button>
+              </div>
+              <div class="mb-3 mt-3">
                 <input
                   type="text"
                   class="form-control"
@@ -185,20 +205,16 @@ function App() {
                 />
               </div>
               <div class="mb-3">
-                <input
-                  type="text"
-                  class="form-control"
-                  placeholder="Mobile"
-                />
+                <input type="text" class="form-control" placeholder="Mobile" />
               </div>
               <div class="mb-3">
-              <textarea
-                class="form-control"
-                cols="30"
-                rows="3"
-                placeholder="Message*"
-                required
-              />
+                <textarea
+                  class="form-control"
+                  cols="30"
+                  rows="3"
+                  placeholder="Message*"
+                  required
+                />
               </div>
               <button type="submit" class="btn btn-dark sendbtn">
                 Send

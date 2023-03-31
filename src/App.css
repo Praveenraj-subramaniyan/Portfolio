@@ -51,11 +51,14 @@ i {
   background-color: rgb(19, 18, 18);
   width: auto;
   position: fixed;
-  bottom: 10px;
+  bottom: 30px;
   right: 4%; 
 }
 .sendbtn {
-  background-color: rgb(19, 18, 18)
+  background-color: rgb(19, 18, 18);
+  margin-left: 30%;
+  margin-bottom: 2%;
+  width: 40%;
 }
 .startp{
   text-indent: 5%;
@@ -63,4 +66,19 @@ i {
 .emailid{
   color: black;
   text-decoration: none;
+}
+.visually-hidden{
+  visibility: hidden;
+}
+.visually-true{
+  visibility: visible;
+}
+.chatButton{
+  background-color: white;
+  border: 0;
+}
+.closeButton{
+  background-color: rgb(19, 18, 18);
+  margin-left: 90%;
+  border: 0;
 }
