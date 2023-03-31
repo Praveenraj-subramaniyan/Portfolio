@@ -17,7 +17,7 @@ function App() {
       ischatbox: "visually-hidden",
     });
   }
-  
+
   return (
     <div class="mainDiv">
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
@@ -180,18 +180,27 @@ function App() {
               <i class="fa fa-commenting fa-5x chat " aria-hidden="true"></i>
             </button>
           </div>
-          <div className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}>
-            <form action="" >
+          <div
+            className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
+          >
+            <form action="">
               <div class="mb-3 mt-3">
-                <button class="btn btn-dark closeButton" onClick={visibilityHidden}>X</button>
+                <button
+                  class="btn btn-dark closeButton"
+                  onClick={visibilityHidden}
+                  type="button"
+                >
+                  x
+                </button>
               </div>
               <div class="mb-3 mt-3">
                 <input
                   type="text"
                   class="form-control"
                   placeholder="Name*"
-                  name="email"
                   required
+                  pattern="^\s*(\w+\s+){0,19}\w+\s*$"
+                  title="Max 20 characters is allowed"
                 />
               </div>
               <div class="mb-3 mt-3">
@@ -200,12 +209,17 @@ function App() {
                   class="form-control"
                   id="email"
                   placeholder="Email*"
-                  name="email"
                   required
                 />
               </div>
               <div class="mb-3">
-                <input type="text" class="form-control" placeholder="Mobile" />
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Mobile"
+                  pattern="^\d{10}$"
+                  title="Max 10 digit is allowed."
+                />
               </div>
               <div class="mb-3">
                 <textarea
