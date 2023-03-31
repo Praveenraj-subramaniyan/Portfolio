@@ -1,59 +1,72 @@
-.home{
- width: 80%;
+.home {
+  width: 80%;
 }
-.icondiv{
+.icondiv {
   margin-left: 32%;
   position: relative;
 }
-.experience{
+.experience {
   width: 80%;
- }
- .education{
+}
+.education {
   width: 80%;
- }
- .skills{
+}
+.skills {
   width: 80%;
- }
-img{
+}
+img {
   width: 150px;
 }
-.content{
+.content {
   margin-top: 100px;
 }
-.Sideheading{
+.Sideheading {
   font-weight: bold;
 }
-h6{
+h6 {
   font-weight: bold;
 }
-h4{
+h4 {
   font-weight: bold;
 }
-.buttommargin{
+.buttommargin {
   margin-right: 20px;
   width: 120px;
   margin-top: 10px;
 }
-i{
+i {
   margin-right: 10px;
 }
-.chat{
+.chat {
   margin-bottom: 20px;
+  
 }
-.chatdiv{
+.chatdiv {
+ 
+}
+.chaticon{
   float: right;
+  position: fixed;
+  bottom: 10px;
+  right: 4%;
 }
-.chatbox{
+.chatbox {
   background-color: black;
+  width: 20%;
+  visibility: hidden;
 }
-.chatboxinput{
-  margin: 10px;
+.chatboxinput {
+  margin: 5px;
 }
-.sendbtn{
+.sendbtn {
   background-color: black;
   margin-left: 40px;
- margin-bottom: 5px;
+  margin-bottom: 5px;
 }
-.mainDiv{
- margin: 100px;
+.startp{
+  text-indent: 5%;
+}
+.emailid{
+  color: black;
+  text-decoration: none;
 }
