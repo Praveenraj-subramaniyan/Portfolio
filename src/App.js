@@ -97,7 +97,7 @@ function App() {
               </p>
             </a>
             <a
-              href="te1:8870118193"
+              href="tel:8870118193"
               onclick="window.location=another.html"
               class="emailid"
             >
