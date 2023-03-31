@@ -91,22 +91,21 @@ function App() {
               onclick="window.location=another.html"
               class="emailid"
             >
-              
-                <i class="fa fa-envelope" aria-hidden="true"></i>
-                spr887011@gmail.com
-            
+              <i class="fa fa-envelope" aria-hidden="true"></i>
+              spr887011@gmail.com
             </a>
-            <br></br><br></br>
+            <br></br>
+            <br></br>
             <a
               href="tel:8870118193"
               onclick="window.location=another.html"
               class="emailid"
             >
-              
-                <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
-                8870118193
+              <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
+              8870118193
             </a>
-            <br></br><br></br>
+            <br></br>
+            <br></br>
           </div>
           <div class="row icondiv mx-auto">
             <div class="col-sm-4">
@@ -198,7 +197,11 @@ function App() {
         </div>
         <div class="chatdiv">
           <div class="chaticon">
-              <i class="fa fa-commenting fa-5x chat " aria-hidden="true" onClick={visibilityTrue}></i>
+            <i
+              class="fa fa-commenting fa-5x chat "
+              aria-hidden="true"
+              onClick={visibilityTrue}
+            ></i>
           </div>
           <div
             className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
