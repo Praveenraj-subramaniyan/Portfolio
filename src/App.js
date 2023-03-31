@@ -87,7 +87,7 @@ function App() {
               Azure DevOps and AWS Cloud.
             </p>
             <a
-              href="mailto:spr887011@gmail.com"
+              href="mailto:spr887011@gmail.com?body=Hi%20Praveen,"
               onclick="window.location=another.html"
               class="emailid"
             >
