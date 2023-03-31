@@ -56,11 +56,15 @@ function App() {
               API and triggering Azure pipeline in C# using API. Familiar with
               Azure DevOps and AWS Cloud.
             </p>
-            <a href="mailto:spr887011@gmail.com" onclick="window.location=another.html" class="emailid">
-            <p>
-              <i class="fa fa-envelope" aria-hidden="true"></i>
-              spr887011@gmail.com
-            </p>
+            <a
+              href="mailto:spr887011@gmail.com"
+              onclick="window.location=another.html"
+              class="emailid"
+            >
+              <p>
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                spr887011@gmail.com
+              </p>
             </a>
             <p>
               <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
@@ -156,36 +160,49 @@ function App() {
           </div>
         </div>
         <div class="chatdiv">
-          <div class="chaticon" >
-            <i
-              class="fa fa-commenting fa-5x chat "
-              aria-hidden="true"
-            ></i>
+          <div class="chaticon">
+            <i class="fa fa-commenting fa-5x chat " aria-hidden="true"></i>
           </div>
-          <div class="chatbox img-thumbnail fixed-bottom">
-            <form class="">
-              <label class="chatboxinput"></label>
-              <br />
-              <input class="chatboxinput" placeholder="Name*" required />
-              <br />
-              <input
-                class="chatboxinput"
-                type={"email"}
-                placeholder="Email*"
-                required
-              />
-              <br />
-              <input class="chatboxinput" placeholder="Mobile" />
-              <br />
+          <div class="container mt-3 chatbox">
+            <form action="">
+            <div class="mb-3 mt-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Name*"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3 mt-3">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Email*"
+                  name="email"
+                  required
+                />
+              </div>
+              <div class="mb-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Mobile"
+                />
+              </div>
+              <div class="mb-3">
               <textarea
-                class="chatboxinput"
-                cols="23"
+                class="form-control"
+                cols="30"
                 rows="3"
                 placeholder="Message*"
                 required
               />
-              <br />
-              <button class="btn btn-dark buttommargin sendbtn">Send</button>
+              </div>
+              <button type="submit" class="btn btn-dark sendbtn">
+                Send
+              </button>
             </form>
           </div>
         </div>
