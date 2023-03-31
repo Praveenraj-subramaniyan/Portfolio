@@ -7,6 +7,12 @@ function App() {
   const [isVisible, setIsVisible] = useState({
     ischatbox: "visually-hidden",
   });
+  const [sendMessage, setSendMessage] = useState({
+    name: "",
+    email: "",
+    mobile: "",
+    message: "Hi Praveen,",
+  });
   function visibilityTrue() {
     setIsVisible({
       ischatbox: "visually-true",
@@ -16,6 +22,15 @@ function App() {
     setIsVisible({
       ischatbox: "visually-hidden",
     });
+  }
+  function handleData(event) {
+    const target = event.target;
+    const name = target.name;
+    const value = target.value;
+    setSendMessage((prevState) => ({
+      ...prevState,
+      [name]: value,
+    }));
   }
 
   return (
@@ -81,10 +96,16 @@ function App() {
                 spr887011@gmail.com
               </p>
             </a>
-            <p>
-              <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
-              8870118193
-            </p>
+            <a
+              href="te1:8870118193"
+              onclick="window.location=another.html"
+              class="emailid"
+            >
+              <p>
+                <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
+                8870118193
+              </p>
+            </a>
           </div>
           <div class="row icondiv mx-auto">
             <div class="col-sm-4">
@@ -201,6 +222,9 @@ function App() {
                   required
                   pattern="^\s*(\w+\s+){0,19}\w+\s*$"
                   title="Max 20 characters is allowed"
+                  value={sendMessage.name}
+                  name="name"
+                  onChange={handleData}
                 />
               </div>
               <div class="mb-3 mt-3">
@@ -210,6 +234,9 @@ function App() {
                   id="email"
                   placeholder="Email*"
                   required
+                  value={sendMessage.email}
+                  name="email"
+                  onChange={handleData}
                 />
               </div>
               <div class="mb-3">
@@ -219,6 +246,9 @@ function App() {
                   placeholder="Mobile"
                   pattern="^\d{10}$"
                   title="Max 10 digit is allowed."
+                  value={sendMessage.mobile}
+                  name="mobile"
+                  onChange={handleData}
                 />
               </div>
               <div class="mb-3">
@@ -228,6 +258,9 @@ function App() {
                   rows="3"
                   placeholder="Message*"
                   required
+                  value={sendMessage.message}
+                  name="message"
+                  onChange={handleData}
                 />
               </div>
               <button type="submit" class="btn btn-dark sendbtn">
