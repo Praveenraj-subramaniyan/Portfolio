@@ -104,8 +104,6 @@ function App() {
               <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
               8870118193
             </a>
-            <br></br>
-            <br></br>
           </div>
           <div class="row icondiv mx-auto">
             <div class="col-sm-4">
