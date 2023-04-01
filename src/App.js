@@ -1,8 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import profile from "./images/profile.jpg";
-import React, { useState } from "react";
-
+import React, { useEffect, useState } from "react";
 function App() {
   const [isVisible, setIsVisible] = useState({
     ischatbox: "visually-hidden",
