@@ -2,7 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import profile from "./images/profile.jpg";
 import React, { useEffect, useState } from "react";
-import axios from 'axios';
+import axios from "axios";
 
 function App() {
   const [isVisible, setIsVisible] = useState({
@@ -35,14 +35,22 @@ function App() {
   }
   function handleSubmit(event) {
     event.preventDefault();
-    const url ="https://portfolionode-guui.onrender.com/bot"
-    axios.post(url, sendMessage)
+    const url = "https://portfolionode-guui.onrender.com/bot";
+    axios
+      .post(url, sendMessage)
       .then((res) => {
         alert("Message sent successfully");
       })
       .catch((error) => {
         alert("Error in sending message" + error);
       });
+    visibilityHidden();
+    setSendMessage((prevState) => ({
+      name: "",
+      email: "",
+      mobile: "",
+      message: "Hi Praveen,",
+    }));
   }
   return (
     <div class="mainDiv">
@@ -221,7 +229,7 @@ function App() {
           <div
             className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
           >
-            <form  id='loginForm' onSubmit={handleSubmit}>
+            <form id="loginForm" onSubmit={handleSubmit}>
               <div class="mb-3 mt-3">
                 <button
                   class="btn btn-dark closeButton"
