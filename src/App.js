@@ -12,7 +12,7 @@ function App() {
     name: "",
     email: "",
     mobile: "",
-    message: "Hi Praveen,",
+    message: "Hi Praveen,\n",
   });
   function visibilityTrue() {
     setIsVisible({
@@ -49,7 +49,7 @@ function App() {
       name: "",
       email: "",
       mobile: "",
-      message: "Hi Praveen,",
+      message: "Hi Praveen,\n",
     }));
   }
   return (
