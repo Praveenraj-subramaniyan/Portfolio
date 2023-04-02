@@ -2,6 +2,8 @@ import logo from "./logo.svg";
 import "./App.css";
 import profile from "./images/profile.jpg";
 import React, { useEffect, useState } from "react";
+import axios from 'axios';
+
 function App() {
   const [isVisible, setIsVisible] = useState({
     ischatbox: "visually-hidden",
@@ -31,7 +33,17 @@ function App() {
       [name]: value,
     }));
   }
-
+  function handleSubmit(event) {
+    event.preventDefault();
+    const url ="https://portfolionode-guui.onrender.com/bot"
+    axios.post(url, sendMessage)
+      .then((res) => {
+        alert("Message sent successfully");
+      })
+      .catch((error) => {
+        alert("Error in sending message" + error);
+      });
+  }
   return (
     <div class="mainDiv">
       <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
@@ -106,12 +118,18 @@ function App() {
           </div>
           <div class="row icondiv mx-auto">
             <div class="col-sm-4">
-              <a href="https://github.com/orgs/Praveenraj-subramaniyan/repositories">
+              <a
+                href="https://github.com/orgs/Praveenraj-subramaniyan/repositories"
+                onclick="window.location=another.html"
+              >
                 <button class="btn btn-dark buttommargin">
                   <i class="fa fa-github"></i>Github
                 </button>
               </a>
-              <a href="https://www.linkedin.com/in/praveen-raj-132bbb22a/">
+              <a
+                href="https://www.linkedin.com/in/praveen-raj-132bbb22a/"
+                onclick="window.location=another.html"
+              >
                 <button class="btn btn-primary buttommargin">
                   <i class="fa fa-linkedin"></i>LinkedIn
                 </button>
@@ -203,7 +221,7 @@ function App() {
           <div
             className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
           >
-            <form action="">
+            <form  id='loginForm' onSubmit={handleSubmit}>
               <div class="mb-3 mt-3">
                 <button
                   class="btn btn-dark closeButton"
