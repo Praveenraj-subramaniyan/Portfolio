@@ -220,10 +220,11 @@ function App() {
               <strong>Project Title :</strong> Swiggy Clone
             </p>
             <p>
-              <strong>Project Description :</strong>Developed a client
-              application for Swiggy, a food delivery platform, using Python and
-              the Swiggy API. The application allows users to search for
-              restaurants, view menus, and place orders for delivery.
+              <strong>Project Description : </strong>Developed a web application
+              similar to Swiggy, a food delivery platform, using the MERN stack
+              (MongoDB, Express.js, React, and Node.js). The application allows
+              users to search for restaurants, view menus, and place orders for
+              delivery.
             </p>
             <p>
               <span class="Sideheading">Key Skills Demonstrated : </span>
@@ -235,7 +236,9 @@ function App() {
             </p>
             <p>
               <span class="Sideheading">Link to Project : </span>
-              <a href="https://praveenraj-subramaniyan.github.io/swiggy-client/">Click here to visit</a>
+              <a href="https://praveenraj-subramaniyan.github.io/swiggy-client/">
+                Click here to visit
+              </a>
             </p>
             <br />
             {/* <h6>Full Stack Developer</h6>
