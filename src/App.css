@@ -11,6 +11,9 @@
 .education {
   width: 80%;
 }
+.project{
+  width: 80%;
+}
 .skills {
   width: 80%;
 }
@@ -18,7 +21,7 @@ img {
   width: 150px;
 }
 .content {
-  margin-top: 60px;
+  margin-top: 40px;
 }
 #home{
   margin-top: 100px;

@@ -82,6 +82,11 @@ function App() {
                 </a>
               </li>
               <li class="nav-item">
+                <a class="nav-link" href="#project">
+                  Projects
+                </a>
+              </li>
+              <li class="nav-item">
                 <a class="nav-link" href="#skills">
                   Skills
                 </a>
@@ -202,6 +207,45 @@ function App() {
             <p>
               <span class="Sideheading">Course : </span>MERN Stack
             </p>
+          </div>
+        </div>
+      </div>
+      <div class="project mx-auto content" id="project">
+        <div class="row content">
+          <div class="col-sm-4">
+            <h4>Projects</h4>
+          </div>
+          <div class="col-sm-8">
+            <p>
+              <strong>Project Title :</strong> Swiggy Clone
+            </p>
+            <p>
+              <strong>Project Description :</strong>Developed a client
+              application for Swiggy, a food delivery platform, using Python and
+              the Swiggy API. The application allows users to search for
+              restaurants, view menus, and place orders for delivery.
+            </p>
+            <p>
+              <span class="Sideheading">Key Skills Demonstrated : </span>
+              <ul>
+                <li>Javascript programming</li>
+                <li>API integration</li>
+                <li>Responsive user interface design</li>
+              </ul>
+            </p>
+            <p>
+              <span class="Sideheading">Link to Project : </span>
+              <a href="https://praveenraj-subramaniyan.github.io/swiggy-client/">Click here to visit</a>
+            </p>
+            <br />
+            {/* <h6>Full Stack Developer</h6>
+            <p>Mar,2023 - Inprogress</p>
+            <p>
+              <span class="Sideheading">Institute : </span>Guvi Geeks
+            </p>
+            <p>
+              <span class="Sideheading">Course : </span>MERN Stack
+            </p> */}
           </div>
         </div>
       </div>
