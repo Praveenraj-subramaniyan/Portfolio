@@ -130,7 +130,7 @@ function App() {
             </a>
           </div>
           <div class="row icondiv mx-auto">
-            <div class="col-sm-4">
+            <div class="col-sm-4 iconsubdiv">
               <a
                 href="https://github.com/orgs/Praveenraj-subramaniyan/repositories"
                 onclick="window.location=another.html"
