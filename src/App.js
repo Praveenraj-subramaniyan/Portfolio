@@ -1,7 +1,6 @@
-import logo from "./logo.svg";
 import "./App.css";
 import profile from "./images/profile.jpg";
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import axios from "axios";
 
 function App() {
@@ -133,7 +132,7 @@ function App() {
             <div class="col-sm-4 iconsubdiv">
               <a
                 href="https://github.com/orgs/Praveenraj-subramaniyan/repositories"
-                onclick="window.location=another.html"
+                target="_blank"
               >
                 <button class="btn btn-dark buttommargin">
                   <i class="fa fa-github"></i>Github
@@ -141,7 +140,7 @@ function App() {
               </a>
               <a
                 href="https://www.linkedin.com/in/praveen-raj-132bbb22a/"
-                onclick="window.location=another.html"
+                target="_blank"
               >
                 <button class="btn btn-primary buttommargin">
                   <i class="fa fa-linkedin"></i>LinkedIn
@@ -236,7 +235,10 @@ function App() {
             </p>
             <p>
               <span class="Sideheading">Link to Project : </span>
-              <a href="https://praveenraj-subramaniyan.github.io/swiggy-client/">
+              <a
+                href="https://master--praveenswiggycloneapp.netlify.app/"
+                target="_blank"
+              >
                 Click here to visit
               </a>
             </p>
@@ -259,7 +261,7 @@ function App() {
           </div>
           <div class="col-sm-8">
             <h6>Language Known</h6>
-            <p>C#, JavaScript, ReactJS, Java, Python</p>
+            <p>C#, JavaScript, React JS, Node JS, Java, Python</p>
             <br />
             <h6>Database</h6>
             <p>SQL, MongoDB</p>
