@@ -199,7 +199,7 @@ function App() {
             </p>
             <br />
             <h6>Full Stack Developer</h6>
-            <p>Mar,2023 - Inprogress</p>
+            <p>Mar, 01 ,2023 - May, 15, 2023</p>
             <p>
               <span class="Sideheading">Institute : </span>Guvi Geeks
             </p>
@@ -220,7 +220,7 @@ function App() {
             </p>
             <p>
               <strong>Project Description : </strong>Developed a web application
-              similar to Swiggy, a food delivery platform, using the MERN stack
+              similar to Swiggy, a food delivery platform, using the <b>MERN stack </b> 
               (MongoDB, Express.js, React, and Node.js). The application allows
               users to search for restaurants, view menus, and place orders for
               delivery.
@@ -228,9 +228,10 @@ function App() {
             <p>
               <span class="Sideheading">Key Skills Demonstrated : </span>
               <ul>
-                <li>Javascript programming</li>
+                <li>Javascript programming (React JS, Node JS)</li>
                 <li>API integration</li>
                 <li>Responsive user interface design</li>
+                <li>CRUD (Create, Read, Update, Delete) operations using MongoDB.</li>
               </ul>
             </p>
             <p>
@@ -270,7 +271,7 @@ function App() {
         <div class="chatdiv">
           <div class="chaticon">
             <i
-              class="fa fa-commenting fa-5x chat "
+              class="fa fa-commenting fa-4x chat "
               aria-hidden="true"
               onClick={visibilityTrue}
             ></i>
