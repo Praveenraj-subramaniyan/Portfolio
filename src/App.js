@@ -216,11 +216,12 @@ function App() {
           </div>
           <div class="col-sm-8">
             <p>
-              <strong>Project Title :</strong> Swiggy Clone
+              <strong>1.Project Title :</strong> Swiggy Clone
             </p>
             <p>
               <strong>Project Description : </strong>Developed a web application
-              similar to Swiggy, a food delivery platform, using the <b>MERN stack </b> 
+              similar to Swiggy, a food delivery platform, using the{" "}
+              <b>MERN stack </b>
               (MongoDB, Express.js, React, and Node.js). The application allows
               users to search for restaurants, view menus, and place orders for
               delivery.
@@ -231,8 +232,28 @@ function App() {
                 <li>Javascript programming (React JS, Node JS)</li>
                 <li>API integration</li>
                 <li>Responsive user interface design</li>
-                <li>CRUD (Create, Read, Update, Delete) operations using MongoDB.</li>
+                <li>
+                  CRUD (Create, Read, Update, Delete) operations using MongoDB.
+                </li>
               </ul>
+            </p>
+            <p>
+              <span class="Sideheading">Front-end Source code: </span>
+              <a
+                href="https://github.com/Praveenraj-subramaniyan/swiggy-client/"
+                target="_blank"
+              >
+                https://github.com/Praveenraj-subramaniyan/swiggy-client
+              </a>
+            </p>
+            <p>
+              <span class="Sideheading">Back-end Source code : </span>
+              <a
+                href="https://github.com/Praveenraj-subramaniyan/swiggy-server/"
+                target="_blank"
+              >
+                https://github.com/Praveenraj-subramaniyan/swiggy-server
+              </a>
             </p>
             <p>
               <span class="Sideheading">Link to Project : </span>
@@ -240,10 +261,59 @@ function App() {
                 href="https://master--praveenswiggycloneapp.netlify.app/"
                 target="_blank"
               >
-                Click here to visit
+                https://master--praveenswiggycloneapp.netlify.app/
               </a>
             </p>
             <br />
+            <p>
+              <strong>2.Project Title :</strong> Customer Relationship
+              Management - CRM
+            </p>
+            <p>
+              <strong>Project Description : </strong>Developed a web-based CRM
+              dashboard and customer management system using the
+              <b>MERN stack </b>
+              (MongoDB, Express.js, React, and Node.js). The application allows
+              businesses to manage their customer relationships.
+            </p>
+            <p>
+              <span class="Sideheading">Key Skills Demonstrated : </span>
+              <ul>
+                <li>Javascript programming (React JS, Node JS)</li>
+                <li>API integration</li>
+                <li>Responsive user interface design</li>
+                <li>
+                  CRUD (Create, Read, Update, Delete) operations using MongoDB.
+                </li>
+              </ul>
+            </p>
+            <p>
+              <span class="Sideheading">Front-end Source code: </span>
+              <a
+                href="https://github.com/Praveenraj-subramaniyan/crm_client/"
+                target="_blank"
+              >
+                https://github.com/Praveenraj-subramaniyan/crm_client
+              </a>
+            </p>
+            <p>
+              <span class="Sideheading">Back-end Source code : </span>
+              <a
+                href="https://github.com/Praveenraj-subramaniyan/crm_server/"
+                target="_blank"
+              >
+                https://github.com/Praveenraj-subramaniyan/crm_server
+              </a>
+            </p>
+            <p>
+              <span class="Sideheading">Link to Project : </span>
+              <a
+                href="https://stellar-rolypoly-618bc4.netlify.app/"
+                target="_blank"
+              >
+                https://stellar-rolypoly-618bc4.netlify.app/
+              </a>
+            </p>
             {/* <h6>Full Stack Developer</h6>
             <p>Mar,2023 - Inprogress</p>
             <p>
