@@ -190,8 +190,8 @@ function App() {
             <h6>Bachelor Of Engineering</h6>
             <p>Jun,2017 - Jun,2021</p>
             <p>
-              <span class="Sideheading">Institute : </span>Mookabigai College Of
-              Engineering
+              <span class="Sideheading">Institute : </span>Mookambigai College
+              of Engineering
             </p>
             <p>
               <span class="Sideheading">Branch : </span>Computer Science
