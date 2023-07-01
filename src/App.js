@@ -195,11 +195,10 @@ function App() {
             </p>
             <p>
               <span class="Sideheading">Branch : </span>Computer Science
-              Engineering
             </p>
             <br />
             <h6>Full Stack Developer</h6>
-            <p>Mar, 01 ,2023 - May, 15, 2023</p>
+            <p>Mar, 01 ,2023 - July, 15, 2023</p>
             <p>
               <span class="Sideheading">Institute : </span>Guvi Geeks
             </p>
