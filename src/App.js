@@ -382,7 +382,7 @@ function App() {
           </div>
           <div class="col-sm-8">
             <h6>Language Known</h6>
-            <p>C#, JavaScript, React JS, Node JS, Java, Python</p>
+            <p>C#, JavaScript,Java, Python</p>
             <br />
             <h6>Database</h6>
             <p>SQL, MongoDB</p>
