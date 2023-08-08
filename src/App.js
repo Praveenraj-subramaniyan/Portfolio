@@ -97,7 +97,7 @@ function App() {
       <div class="home mx-auto " id="home">
         <div class="row content">
           <div class="col-sm-4">
-            <img class="img-thumbnail" src={profile} alt="Profile" />
+            <img class="img-thumbnail p-0" src={profile} alt="Profile" />
           </div>
           <div class="col-sm-8">
             <h4>Praveenraj Subramaniyan | Certified Full Stack Developer</h4>
