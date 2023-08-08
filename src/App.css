@@ -94,3 +94,12 @@ i {
 body{
   background-color: gainsboro !important;
 }
+p{
+  font-weight: 500 !important;
+}
+a{
+  font-weight: 500 !important;
+}
+h4{
+  font-weight: 700 !important;
+}
