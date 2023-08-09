@@ -252,7 +252,7 @@ function App() {
                 href="https://github.com/Praveenraj-subramaniyan/stack-overflow-server/"
                 target="_blank"
               >
-               https://github.com/Praveenraj-subramaniyan/stack-overflow-server
+                https://github.com/Praveenraj-subramaniyan/stack-overflow-server
               </a>
             </p>
             <p>
@@ -270,8 +270,7 @@ function App() {
             </p>
             <p>
               <strong>Project Description : </strong>Developed a web application
-              similar to Swiggy, a food delivery platform, using the{" "}
-              MERN stack
+              similar to Swiggy, a food delivery platform, using the MERN stack
               (MongoDB, Express.js, React, and Node.js). The application allows
               users to search for restaurants, view menus, and place orders for
               delivery.
@@ -321,8 +320,7 @@ function App() {
             </p>
             <p>
               <strong>Project Description : </strong>Developed a web-based CRM
-              dashboard and customer management system using the
-              MERN stack 
+              dashboard and customer management system using the MERN stack
               (MongoDB, Express.js, React, and Node.js). The application allows
               businesses to manage their customer relationships.
             </p>
@@ -375,7 +373,7 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="skills mx-auto content" id="skills">
+      <div class="skills mx-auto mb-5 pb-5 content" id="skills">
         <div class="row content">
           <div class="col-sm-4">
             <h4>Skills</h4>
