@@ -96,18 +96,20 @@ function App() {
       </nav>
       <div class="home mx-auto " id="home">
         <div class="row content">
-          <div class="col-sm-4">
+          <div class="col-sm-4 imagediv">
             <img class="img-thumbnail p-0" src={profile} alt="Profile" />
           </div>
           <div class="col-sm-8">
             <h4>Praveenraj Subramaniyan | Certified Full Stack Developer</h4>
             <p class="startp">
-              Junior software developer with over 1+ year of experience in
-              windows and web application development. Proficient in ASP.NET
-              Core with experience in SQL and database migration. Skilled in
-              creating new tools for updating values in a database from GitHub
-              API and triggering Azure pipeline in C# using API. Familiar with
-              Azure DevOps and AWS Cloud.
+              Skilled Computer Science specialist with a robust background in
+              ASP.NET Core for web app development and adept in crafting Windows
+              applications using tools like Final Builder, WIX, and
+              bootstrapper. Proven expertise in Azure DevOps, encompassing
+              Virtual Machines, Images, Pipelines, and Azure SQL. Well-versed in
+              database migration, GIT version control, and AWS Cloud.
+              Additionally, completed an immersive Full Stack Developer program
+              in MERN Stack from Guvi Geeks.
             </p>
             <a
               href="mailto:spr887011@gmail.com?body=Hi%20Praveen,"
@@ -153,7 +155,7 @@ function App() {
       <div class="experience mx-auto content" id="experience">
         <div class="row content">
           <div class="col-sm-4">
-            <h4>Work Experience</h4>
+            <h4>Experience</h4>
           </div>
           <div class="col-sm-8">
             <h6>

@@ -103,3 +103,6 @@ a{
 h4{
   font-weight: 700 !important;
 }
+.imagediv{
+  height: fit-content !important;
+}
