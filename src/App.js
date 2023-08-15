@@ -189,7 +189,7 @@ function App() {
             <h4>Education</h4>
           </div>
           <div class="col-sm-8">
-            <h6>Bachelor Of Engineering</h6>
+            <h6>1.Bachelor Of Engineering</h6>
             <p>Jun,2017 - Jun,2021</p>
             <p>
               <span class="Sideheading">Institute : </span>Mookambigai College
@@ -199,7 +199,7 @@ function App() {
               <span class="Sideheading">Branch : </span>Computer Science
             </p>
             <br />
-            <h6>Full Stack Developer</h6>
+            <h6>2.Full Stack Developer</h6>
             <p>Mar, 01 ,2023 - July, 31, 2023</p>
             <p>
               <span class="Sideheading">Institute : </span>Guvi Geeks
