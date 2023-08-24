@@ -207,6 +207,10 @@ function App() {
             <p>
               <span class="Sideheading">Course : </span>MERN Stack
             </p>
+            <p>
+              <span class="Sideheading">Certificate : </span><a href="https://www.guvi.in/verify-certificate?id=54r61g6iLI7NK26930">https://www.guvi.in/verify-certificate?id=54r61g6iLI7NK26930</a>
+            </p>
+            
           </div>
         </div>
       </div>
