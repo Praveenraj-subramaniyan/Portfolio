@@ -113,7 +113,7 @@ function App() {
             </p>
             <a
               href="mailto:spr887011@gmail.com?body=Hi%20Praveen,"
-              onclick="window.location=another.html"
+              onClick="window.location=another.html"
               className="emailid"
             >
               <i className="fa fa-envelope" aria-hidden="true"></i>
@@ -401,7 +401,7 @@ function App() {
             ></i>
           </div>
           <div
-            classNameName={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
+            className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
           >
             <form id="loginForm" onSubmit={handleSubmit}>
               <div className="mb-3 mt-3">
