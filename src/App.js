@@ -52,41 +52,41 @@ function App() {
     }));
   }
   return (
-    <div class="mainDiv">
-      <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
-        <div class="container-fluid">
+    <div className="mainDiv">
+      <nav className="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <div className="container-fluid">
           <button
-            class="navbar-toggler"
+            className="navbar-toggler"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#mynavbar"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="mynavbar">
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#home">
-                  <i class="fa fa-home " aria-hidden="true"></i>Home
+          <div className="collapse navbar-collapse" id="mynavbar">
+            <ul className="navbar-nav me-auto">
+              <li className="nav-item">
+                <a className="nav-link" href="#home">
+                  <i className="fa fa-home " aria-hidden="true"></i>Home
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#experience">
+              <li className="nav-item">
+                <a className="nav-link" href="#experience">
                   Experience
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#education">
+              <li className="nav-item">
+                <a className="nav-link" href="#education">
                   Education
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#project">
+              <li className="nav-item">
+                <a className="nav-link" href="#project">
                   Projects
                 </a>
               </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#skills">
+              <li className="nav-item">
+                <a className="nav-link" href="#skills">
                   Skills
                 </a>
               </li>
@@ -94,14 +94,14 @@ function App() {
           </div>
         </div>
       </nav>
-      <div class="home mx-auto " id="home">
-        <div class="row content">
-          <div class="col-sm-4 imagediv">
-            <img class="img-thumbnail p-0" src={profile} alt="Profile" />
+      <div className="home mx-auto " id="home">
+        <div className="row content">
+          <div className="col-sm-4 imagediv">
+            <img className="img-thumbnail p-0" src={profile} alt="Profile" />
           </div>
-          <div class="col-sm-8">
+          <div className="col-sm-8">
             <h4>Praveenraj Subramaniyan | Certified Full Stack Developer</h4>
-            <p class="startp">
+            <p className="startp">
               Skilled Computer Science specialist with a robust background in
               ASP.NET Core for web app development and adept in crafting Windows
               applications using tools like Final Builder, WIX, and
@@ -114,9 +114,9 @@ function App() {
             <a
               href="mailto:spr887011@gmail.com?body=Hi%20Praveen,"
               onclick="window.location=another.html"
-              class="emailid"
+              className="emailid"
             >
-              <i class="fa fa-envelope" aria-hidden="true"></i>
+              <i className="fa fa-envelope" aria-hidden="true"></i>
               spr887011@gmail.com
             </a>
             <br></br>
@@ -124,40 +124,40 @@ function App() {
             <a
               href="tel:8870118193"
               onclick="window.location=another.html"
-              class="emailid"
+              className="emailid"
             >
-              <i class="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
+              <i className="fa fa-mobile fa-2x" aria-hidden="true"></i>+91
               8870118193
             </a>
           </div>
-          <div class="row icondiv mx-auto">
-            <div class="col-sm-4 iconsubdiv">
+          <div className="row icondiv mx-auto">
+            <div className="col-sm-4 iconsubdiv">
               <a
                 href="https://github.com/orgs/Praveenraj-subramaniyan/repositories"
                 target="_blank"
               >
-                <button class="btn btn-dark buttommargin">
-                  <i class="fa fa-github"></i>Github
+                <button className="btn btn-dark buttommargin">
+                  <i className="fa fa-github"></i>Github
                 </button>
               </a>
               <a
                 href="https://www.linkedin.com/in/praveen-raj-132bbb22a/"
                 target="_blank"
               >
-                <button class="btn btn-primary buttommargin">
-                  <i class="fa fa-linkedin"></i>LinkedIn
+                <button className="btn btn-primary buttommargin">
+                  <i className="fa fa-linkedin"></i>LinkedIn
                 </button>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div class="experience mx-auto content" id="experience">
-        <div class="row content">
-          <div class="col-sm-4">
+      <div className="experience mx-auto content" id="experience">
+        <div className="row content">
+          <div className="col-sm-4">
             <h4>Experience</h4>
           </div>
-          <div class="col-sm-8">
+          <div className="col-sm-8">
             <h6>
               Software Developer - <spam>Syncfusion Software</spam>
             </h6>
@@ -183,43 +183,43 @@ function App() {
           </div>
         </div>
       </div>
-      <div class="education mx-auto content" id="education">
-        <div class="row content">
-          <div class="col-sm-4">
+      <div className="education mx-auto content" id="education">
+        <div className="row content">
+          <div className="col-sm-4">
             <h4>Education</h4>
           </div>
-          <div class="col-sm-8">
+          <div className="col-sm-8">
             <h6>1.Bachelor Of Engineering</h6>
             <p>Jun,2017 - Jun,2021</p>
             <p>
-              <span class="Sideheading">Institute : </span>Mookambigai College
+              <span className="Sideheading">Institute : </span>Mookambigai College
               of Engineering
             </p>
             <p>
-              <span class="Sideheading">Branch : </span>Computer Science
+              <span className="Sideheading">Branch : </span>Computer Science
             </p>
             <br />
             <h6>2.Full Stack Developer</h6>
             <p>Mar, 01 ,2023 - July, 31, 2023</p>
             <p>
-              <span class="Sideheading">Institute : </span>Guvi Geeks
+              <span className="Sideheading">Institute : </span>Guvi Geeks
             </p>
             <p>
-              <span class="Sideheading">Course : </span>MERN Stack
+              <span className="Sideheading">Course : </span>MERN Stack
             </p>
             <p>
-              <span class="Sideheading">Certificate : </span><a href="https://www.guvi.in/verify-certificate?id=54r61g6iLI7NK26930">https://www.guvi.in/verify-certificate?id=54r61g6iLI7NK26930</a>
+              <span className="Sideheading">Certificate : </span><a href="https://www.guvi.in/verify-certificate?id=54r61g6iLI7NK26930">https://www.guvi.in/verify-certificate?id=54r61g6iLI7NK26930</a>
             </p>
             
           </div>
         </div>
       </div>
-      <div class="project mx-auto content" id="project">
-        <div class="row content">
-          <div class="col-sm-4">
+      <div className="project mx-auto content" id="project">
+        <div className="row content">
+          <div className="col-sm-4">
             <h4>Projects</h4>
           </div>
-          <div class="col-sm-8">
+          <div className="col-sm-8">
             <p>
               <strong>1.Project Title :</strong> Stack overflow Clone
             </p>
@@ -230,7 +230,7 @@ function App() {
               application enables users to post questions and answers.
             </p>
             <p>
-              <span class="Sideheading">Key Skills Demonstrated : </span>
+              <span className="Sideheading">Key Skills Demonstrated : </span>
               <ul>
                 <li>
                   <b>Redux</b>
@@ -244,7 +244,7 @@ function App() {
               </ul>
             </p>
             <p>
-              <span class="Sideheading">Front-end Source code: </span>
+              <span className="Sideheading">Front-end Source code: </span>
               <a
                 href="https://github.com/Praveenraj-subramaniyan/stack-overflow-client/"
                 target="_blank"
@@ -253,7 +253,7 @@ function App() {
               </a>
             </p>
             <p>
-              <span class="Sideheading">Back-end Source code : </span>
+              <span className="Sideheading">Back-end Source code : </span>
               <a
                 href="https://github.com/Praveenraj-subramaniyan/stack-overflow-server/"
                 target="_blank"
@@ -262,7 +262,7 @@ function App() {
               </a>
             </p>
             <p>
-              <span class="Sideheading">Link to Project : </span>
+              <span className="Sideheading">Link to Project : </span>
               <a
                 href="https://stack-overflow-clone-praveenraj.netlify.app/"
                 target="_blank"
@@ -282,7 +282,7 @@ function App() {
               delivery.
             </p>
             <p>
-              <span class="Sideheading">Key Skills Demonstrated : </span>
+              <span className="Sideheading">Key Skills Demonstrated : </span>
               <ul>
                 <li>Javascript programming (React JS, Node JS)</li>
                 <li>API integration</li>
@@ -293,7 +293,7 @@ function App() {
               </ul>
             </p>
             <p>
-              <span class="Sideheading">Front-end Source code: </span>
+              <span className="Sideheading">Front-end Source code: </span>
               <a
                 href="https://github.com/Praveenraj-subramaniyan/swiggy-client/"
                 target="_blank"
@@ -302,7 +302,7 @@ function App() {
               </a>
             </p>
             <p>
-              <span class="Sideheading">Back-end Source code : </span>
+              <span className="Sideheading">Back-end Source code : </span>
               <a
                 href="https://github.com/Praveenraj-subramaniyan/swiggy-server/"
                 target="_blank"
@@ -311,7 +311,7 @@ function App() {
               </a>
             </p>
             <p>
-              <span class="Sideheading">Link to Project : </span>
+              <span className="Sideheading">Link to Project : </span>
               <a
                 href="https://master--praveenswiggycloneapp.netlify.app/"
                 target="_blank"
@@ -331,7 +331,7 @@ function App() {
               businesses to manage their customer relationships.
             </p>
             <p>
-              <span class="Sideheading">Key Skills Demonstrated : </span>
+              <span className="Sideheading">Key Skills Demonstrated : </span>
               <ul>
                 <li>Javascript programming (React JS, Node JS)</li>
                 <li>API integration</li>
@@ -342,7 +342,7 @@ function App() {
               </ul>
             </p>
             <p>
-              <span class="Sideheading">Front-end Source code: </span>
+              <span className="Sideheading">Front-end Source code: </span>
               <a
                 href="https://github.com/Praveenraj-subramaniyan/crm_client/"
                 target="_blank"
@@ -351,7 +351,7 @@ function App() {
               </a>
             </p>
             <p>
-              <span class="Sideheading">Back-end Source code : </span>
+              <span className="Sideheading">Back-end Source code : </span>
               <a
                 href="https://github.com/Praveenraj-subramaniyan/crm_server/"
                 target="_blank"
@@ -360,7 +360,7 @@ function App() {
               </a>
             </p>
             <p>
-              <span class="Sideheading">Link to Project : </span>
+              <span className="Sideheading">Link to Project : </span>
               <a
                 href="https://stellar-rolypoly-618bc4.netlify.app/"
                 target="_blank"
@@ -371,20 +371,20 @@ function App() {
             {/* <h6>Full Stack Developer</h6>
             <p>Mar,2023 - Inprogress</p>
             <p>
-              <span class="Sideheading">Institute : </span>Guvi Geeks
+              <span className="Sideheading">Institute : </span>Guvi Geeks
             </p>
             <p>
-              <span class="Sideheading">Course : </span>MERN Stack
+              <span className="Sideheading">Course : </span>MERN Stack
             </p> */}
           </div>
         </div>
       </div>
-      <div class="skills mx-auto mb-5 pb-5 content" id="skills">
-        <div class="row content">
-          <div class="col-sm-4">
+      <div className="skills mx-auto mb-5 pb-5 content" id="skills">
+        <div className="row content">
+          <div className="col-sm-4">
             <h4>Skills</h4>
           </div>
-          <div class="col-sm-8">
+          <div className="col-sm-8">
             <h6>Language Known</h6>
             <p>C#, JavaScript, Java, Python</p>
             <br />
@@ -392,31 +392,31 @@ function App() {
             <p>SQL, MongoDB</p>
           </div>
         </div>
-        <div class="chatdiv">
-          <div class="chaticon">
+        <div className="chatdiv">
+          <div className="chaticon">
             <i
-              class="fa fa-commenting fa-4x chat "
+              className="fa fa-commenting fa-4x chat "
               aria-hidden="true"
               onClick={visibilityTrue}
             ></i>
           </div>
           <div
-            className={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
+            classNameName={`container mt-3 chatbox img-thumbnail ${isVisible.ischatbox}`}
           >
             <form id="loginForm" onSubmit={handleSubmit}>
-              <div class="mb-3 mt-3">
+              <div className="mb-3 mt-3">
                 <button
-                  class="btn btn-dark closeButton"
+                  className="btn btn-dark closeButton"
                   onClick={visibilityHidden}
                   type="button"
                 >
                   x
                 </button>
               </div>
-              <div class="mb-3 mt-3">
+              <div className="mb-3 mt-3">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Name*"
                   required
                   pattern="^\s*(\w+\s+){0,19}\w+\s*$"
@@ -426,10 +426,10 @@ function App() {
                   onChange={handleData}
                 />
               </div>
-              <div class="mb-3 mt-3">
+              <div className="mb-3 mt-3">
                 <input
                   type="email"
-                  class="form-control"
+                  className="form-control"
                   id="email"
                   placeholder="Email*"
                   required
@@ -438,10 +438,10 @@ function App() {
                   onChange={handleData}
                 />
               </div>
-              <div class="mb-3">
+              <div className="mb-3">
                 <input
                   type="text"
-                  class="form-control"
+                  className="form-control"
                   placeholder="Mobile"
                   pattern="^\d{10}$"
                   title="Max 10 digit is allowed."
@@ -450,9 +450,9 @@ function App() {
                   onChange={handleData}
                 />
               </div>
-              <div class="mb-3">
+              <div className="mb-3">
                 <textarea
-                  class="form-control"
+                  className="form-control"
                   cols="30"
                   rows="3"
                   placeholder="Message*"
@@ -462,7 +462,7 @@ function App() {
                   onChange={handleData}
                 />
               </div>
-              <button type="submit" class="btn btn-dark sendbtn">
+              <button type="submit" className="btn btn-dark sendbtn">
                 Send
               </button>
             </form>
